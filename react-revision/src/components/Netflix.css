@@ -1,0 +1,11 @@
+
+.heading{
+  font-weight: bolder;
+  font-size: 22px;
+  color: black;
+}
+.card{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
