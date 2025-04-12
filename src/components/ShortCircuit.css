@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+}
+.buttons-div{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 500px;
+  width: 500px;
+  align-items: center;
+}
+button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 43px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover{
+  opacity: 0.5;
+}
+.isclick{
+  background-color: rgb(243, 243, 49);
+  color: black;
+}
+.notclick{
+  background-color: black;
+  color: white;
+}

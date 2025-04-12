@@ -1,7 +1,9 @@
 import React from 'react'
-import Netflix from './components/Netflix'
+import ShortCircuit from './components/ShortCircuit';
+// import Netflix from './components/Netflix'
+
 // import './App.css'
-import { Todo } from './Project/Todo/Todo';
+// import { Todo } from './Project/Todo/Todo';
 // import { TodoPrac } from './TodoPrac';
 // import { ToggleSwitch } from "./Projects'/ToggleSwitch/ToggleSwitch";
 // import { UseStateProb } from './components/hooks/DerivedState';
@@ -24,8 +26,9 @@ const App = () => {
       {/* <UseStateProb/> */}
       {/* <LiftingState/> */}
        {/* <ToggleSwitch/> */}
-      <Todo/>
+      {/* <Todo/> */}
       {/* <TodoPrac/> */}
+      <ShortCircuit/>
     </section>
   );
 };
