@@ -1,5 +1,6 @@
 import React from 'react'
-import Cleanup from './components/hooks/useEffect/Cleanup';
+import HowNotToFetchAPI from './components/hooks/useEffect/HowNotToFetchAPI';
+// import Cleanup from './components/hooks/useEffect/Cleanup';
 // import ContactForm from './components/hooks/useState/ContactForm';
 // import ContactForm2 from './components/hooks/useState/ContactForm2';
 // import Increement from './components/hooks/useEffect/Increement';
@@ -42,7 +43,8 @@ const App = () => {
       {/* <Increement/> */}
       {/* <DateTime/> */}
       {/* <TitleChallenge/> */}
-      <Cleanup/>
+      {/* <Cleanup/>   */}
+      <HowNotToFetchAPI/>
     </section>
   );
 };
